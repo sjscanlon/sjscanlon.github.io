@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Exo-Regular;
+    src: url("Fonts/exo/Exo-Regular.otf") format("opentype");
+}
+
 /*
  * Base structure
  */
@@ -23,9 +28,16 @@ body {
  */
 .navbar-fixed-top {
     border: 0;
-    background-color: #8506A9;
+    background-color: #56026E;
 }
 
+.page-title {
+    font-family: Exo-Regular;
+}
+
+.main-body {
+    background-color: #BB63D4;
+}
 /*
  * Sidebar
  */
