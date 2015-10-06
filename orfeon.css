@@ -58,6 +58,11 @@ body {
     font-family: Exo-Regular;
 }
 
+.soc-media {
+    padding-left: 2px;
+    color: #56026E;
+}
+
 .bottom-tag {
     color: DarkGray;
 }
