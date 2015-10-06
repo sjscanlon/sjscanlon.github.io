@@ -2,6 +2,10 @@
     font-family: Exo-Regular;
     src: url("Fonts/exo/Exo-Regular.otf") format("opentype");
 }
+@font-face {
+    font-family: Dimitri;
+    src: url("Fonts/dimitri/DIMIS___.TTF") format("opentype");
+}
 
 /*
  * Base structure
@@ -34,12 +38,12 @@ body {
 */
 
 .current-page {
-    font-family: Exo-Regular;
+    font-family: Dimitri;
     font-size: 17px;
 }
 
 .page-title {
-    font-family: Exo-Regular;
+    font-family: Dimitri;
     font-size: 17px;
 }
 
@@ -99,10 +103,31 @@ body {
 }
 .main .page-header {
     margin-top: 0;
-    font-family: Exo-Regular;
+    font-family: Dimitri;
+}
+
+.facebook {
+    color: #3b5998;
+    padding-left: 10px;
+}
+
+.twitter {
+    color: #00aced;
+    padding-left: 10px;
+}
+
+.tumblr {
+    color: #32506d;
+    padding-left: 10px;
+}
+
+.twitch {
+    color: #6441a5;
+    padding-left: 10px;
 }
 
 .bottom-tag {
     color: DarkGray;
 }
+
 
