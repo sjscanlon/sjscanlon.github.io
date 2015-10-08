@@ -3,17 +3,28 @@
     src: url("Fonts/exo/Exo-Regular.otf") format("opentype");
 }
 
+@font-face {
+    font-family: Dimitri;
+    src: url("Fonts/dimitri/DIMIS___.TTF") format("opentype");
+}
+
 /*
  * Base structure
  */
 
 /* Move down content because we have a fixed navbar that is 50px tall */
 body {
-    padding-top: 50px;
+    padding-top: 0px;
     /*background-color: #B23AD4;*/
 }
 
-
+#container {
+    margin: 0 auto;
+    width: 940px;
+}
+#content {
+    width: 100%;
+}
 /*
  * Global add-ons
  */
@@ -29,11 +40,18 @@ body {
  */
 .navbar-fixed-top {
     border: 0;
-    background-color: #56026E;
+    background-color: #FFF;
+}
+
+.top-bar {
+    margin-top: 0px;
 }
 
 .page-title {
-    font-family: Exo-Regular;
+    padding-top: 20px;
+    font-family: Dimitri;
+    font-size: 28px;
+    color: #6441a5;
 }
 
 .orfeon-para {
@@ -45,7 +63,7 @@ body {
  */
 
 .main {
-    padding: 20px;
+    padding: 0px;
 }
 @media (min-width: 768px) {
     .main {
