@@ -4,8 +4,8 @@
 }
 
 @font-face {
-    font-family: Dimitri;
-    src: url("Fonts/dimitri/DIMIS___.TTF") format("opentype");
+    font-family: SourceCodePro;
+    src: url("Fonts/source-code-pro/SourceCodePro-Regular.otf") format("opentype");
 }
 
 /*
@@ -18,12 +18,20 @@ body {
     /*background-color: #B23AD4;*/
 }
 
+nav.navbar.top-bar {
+    margin-top: 10px;
+}
 #container {
     margin: 0 auto;
-    width: 940px;
+    width: 100%;
 }
 #content {
     width: 100%;
+}
+
+.navbar {
+    margin: 0 auto;
+    width: 940px;
 }
 /*
  * Global add-ons
@@ -49,9 +57,9 @@ body {
 
 .page-title {
     padding-top: 20px;
-    font-family: Dimitri;
+    font-family: SourceCodePro;
     font-size: 28px;
-    color: #6441a5;
+    color: #006064;
 }
 
 .orfeon-para {
@@ -67,15 +75,154 @@ body {
 }
 @media (min-width: 768px) {
     .main {
-        padding-right: 40px;
-        padding-left: 40px;
+        padding-right: 0px;
+        padding-left: 0px;
     }
 }
+
 .main .page-header {
     margin-top: 0;
     font-family: Exo-Regular;
 }
 
+/* Search Style and adding Magnifying Glass Icon*/
+.form-control {
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 30px;
+    -webkit-border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+    border-radius: 0 !important;
+}
+
+input.search-query {
+    padding-left:26px;
+}
+form.form-search {
+    position: relative;
+}
+form.form-search:before {
+    display: block;
+    width: 14px;
+    height: 14px;
+    content: "\e003";
+    font-family: 'Glyphicons Halflings';
+    background-position: -48px 0;
+    position: absolute;
+    top:7px;
+    left:25px;
+    opacity: .5;
+    z-index: 1000;
+}
+
+.caro-tag {
+    font-family: SourceCodePro;
+}
+/*Right Navigation Buttons Added.*/
+.right-navbutton {
+    color: #006064;
+}
+
+ul.nav a:hover {
+    color: #006064;
+    background-color: #FFF;
+}
+
+ul.nav a.log-in {
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-left-color: gray;
+}
+ul.nav a.sign-up {
+    background-size: 50px 30px;
+    height: 50px;
+    color: #FFF;
+    background-color: #006064;
+}
+
+ul.nav a.sign-up:hover {
+    color: #FFF;
+    background-color: #5DC8CD;
+}
+
+/*Carousel style*/
+#caro {
+    z-index: -1;
+    margin-top: 10px;
+    width: 100%;
+    height: 620px;
+    background-color: #01939A;
+}
+#myCarousel {
+    z-index: 1;
+    margin: 0 auto;
+    height: 620px;
+    width: 940px;
+}
+.carousel-inner {
+    height: 620px;
+}
+
+/*
+Feature Porfolios Section
+*/
+
+.featured {
+    margin: 0 auto;
+    width: 940px;
+}
+
+.featured-title {
+    font-family: SourceCodePro;
+    white-space: nowrap;
+}
+
+.featured-recent {
+    font-family: Exo-Regular;
+    font-size: 16px;
+    white-space: nowrap;
+}
+
+.featured-column {
+    padding: 0px;
+}
+
+.featured-nature {
+    padding-left: 0px;
+}
+
+.featured-fashion {
+    padding-right: 0px;
+}
+
+.featured-tag {
+    font-family: SourceCodePro;
+    padding-top: 5px;
+    font-size: 16px;
+}
+
+/* Bottom information and links. */
+.facebook {
+    color: #3b5998;
+    padding-left: 10px;
+}
+
+.twitter {
+    color: #00aced;
+    padding-left: 10px;
+}
+
+.tumblr {
+    color: #32506d;
+    padding-left: 10px;
+}
+
+.bottom-links {
+    margin: 0 auto;
+    width: 940px;
+}
+
 .bottom-tag {
     color: DarkGray;
+
 }
