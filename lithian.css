@@ -183,15 +183,45 @@ Feature Porfolios Section
     white-space: nowrap;
 }
 
+.pic1 {
+    width: 235px;
+    height: 155px;
+}
+
+.pic1:hover {
+    opacity: 0.7;
+}
+
+.pic {
+    width: 235px;
+    height: 155px;
+}
+
+.pic:hover {
+    opacity: 0.7;
+}
+
 .featured-column {
-    padding: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 
 .featured-nature {
     padding-left: 0px;
+    padding-right: 0px;
+}
+
+.featured-city {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.featured-architecture {
+    padding-left: 0px;
+    padding-right: 0px;
 }
 
 .featured-fashion {
+    padding-left: 0px;
     padding-right: 0px;
 }
 
