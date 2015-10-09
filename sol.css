@@ -66,7 +66,17 @@ body {
 .myCarousel {
     position: relative;
     z-index: -1;
-    max-height: 1250px;
+    max-height: 900px !important;
+}
+
+.item {
+    max-height: 900px !important;
+}
+.item-active {
+    max-height: 900px !important;
+}
+.main-body {
+    max-height: 1200px !important;
 }
 
 .orfeon-para {
