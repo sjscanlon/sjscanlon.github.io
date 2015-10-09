@@ -236,6 +236,9 @@ Feature Porfolios Section
     text-decoration: underline;
 }
 
+/*
+See portfolio news section
+*/
 .news-text {
     font-family: SourceCodePro;
 }
