@@ -153,6 +153,7 @@ ul.nav a.sign-up:hover {
     height: 620px;
     background-color: #01939A;
 }
+
 #myCarousel {
     z-index: 1;
     margin: 0 auto;
@@ -231,6 +232,58 @@ Feature Porfolios Section
     font-size: 16px;
 }
 
+.see-all:hover {
+    text-decoration: underline;
+}
+
+.news-text {
+    font-family: SourceCodePro;
+}
+
+.news-btn {
+    border: #006064;
+    background-color: #006064;
+    color: #FFF;
+    -webkit-border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+    border-radius: 0 !important;
+}
+
+.news-btn:hover {
+    background-color: #01939A;
+    color: #FFF;
+}
+
+.new-btn:focus {
+    background-color: #01939A;
+    color: #FFF;
+}
+
+
+.back-image-caption {
+    top: 100px;
+    margin: 0 auto;
+    width: 100%;
+    position: absolute;
+    z-index: 10;
+}
+
+.back-pic {
+    position: relative;
+    z-index: -1;
+    width: 100%;
+    height: 300px;
+    border-top-color: darkgray;
+    border-bottom-color: darkgray;
+    background-color: lightgray;
+}
+.back-image {
+    opacity: 0.5;
+    margin: 0 auto;
+    width: 940px;
+    height: 300px;
+}
+
 /* Bottom information and links. */
 .facebook {
     color: #3b5998;
@@ -247,7 +300,17 @@ Feature Porfolios Section
     padding-left: 10px;
 }
 
+.featured-all {
+    margin: 0 auto;
+    width: 940px;
+}
+
+.featured-all-link {
+    color: #006064;
+}
+
 .bottom-links {
+    position: relative;
     margin: 0 auto;
     width: 940px;
 }
