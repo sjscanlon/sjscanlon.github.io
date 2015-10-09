@@ -2,11 +2,6 @@
     font-family: Exo-Regular;
     src: url("Fonts/exo/Exo-Regular.otf") format("opentype");
 }
-
-@font-face {
-    font-family: RailwayRegular;
-    src: url("Fonts/RailwaySans/fonts/OTF/Railway.otf")
-}
 /*
  * Base structure
  */
@@ -49,7 +44,7 @@ body {
 }
 
 .page-title {
-    font-family: RailwayRegular;
+    font-family: Exo-Regular;
 }
 
 .page-header {
