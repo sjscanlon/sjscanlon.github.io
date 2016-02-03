@@ -85,6 +85,10 @@ body {
     background-color: #FFD737 !important;
 }
 
+.note-button:active, .note-button:focus {
+    background-color: #A66F03 !important;
+}
+
 .fa-plus {
     color: #FFFFFF;
 }
