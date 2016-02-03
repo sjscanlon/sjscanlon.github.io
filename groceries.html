@@ -53,15 +53,16 @@
 
     <table class="table">
         <tr>
-            <th>Groceries</th>
+            <th class="table-title">Groceries</th>
             <th></th>
         </tr>
         <tr>
             <!-- This is where each note will go -->
         </tr>
         <!-- This is our clonable table line -->
-        <tr class="hide">
-            <td contenteditable="true"><i class="fa fa-chevron-right"></i></i> New Note</td>
+        <tr class="hide" id="content">
+            <td class="chevron"contenteditable="false"><i class="fa fa-chevron-right"></i></td>
+            <td class="note-text" contenteditable="true"> New Note</td>
             <td>
                 <i class="table-remove fa fa-times"></i>
             </td>

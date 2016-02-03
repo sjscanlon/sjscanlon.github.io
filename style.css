@@ -132,6 +132,20 @@ body {
     font-size: 20px;
 }
 
+.table-title {
+    padding-left: 20px !important;
+}
+
+.chevron {
+    width: 15px !important;
+    padding-right: 0px !important;
+    padding-left: 20px !important;
+}
+
+.note-text {
+    padding-left: 0px !important;
+}
+
 .table-remove {
     color: #A66F03;
     cursor: pointer;
