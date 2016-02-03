@@ -1,0 +1,148 @@
+@font-face {
+    font-family: Exo-Regular;
+    src: url("Fonts/exo/Exo-Regular.otf") format("opentype");
+}
+
+/*
+ * Base structure
+ */
+
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+    padding-top: 50px;
+    background-color: #FFD773;
+}
+
+
+/*
+ * Global add-ons
+ */
+
+.sub-header {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+/*
+ * Top navigation
+ * Hide default border to remove 1px line.
+ */
+.navbar-header {
+    float: none;
+    margin-right: -15px;
+    margin: 0px !important;
+    padding-top: 15px;
+    text-align: center;
+    width: 100%;
+}
+.navbar-brand {
+    float:none;
+    padding-left: 50px;
+}
+
+.navbar-fixed-top .navbar-brand {
+    color: #ffffff;
+}
+
+.navbar-fixed-top {
+    border: 0;
+    background-color: #A66F03;
+}
+
+/*
+ * Main content
+ */
+
+.main {
+    padding: 20px;
+}
+
+@media (min-width: 768px) {
+    .main {
+        padding-right: 40px;
+        padding-left: 40px;
+    }
+}
+
+.container-fluid {
+    padding: 0px;
+}
+
+.body {
+    background-color: #FFD073;
+}
+
+.note-button {
+    float: right;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: #A66F03;
+    border-color: #FFFFFF;
+}
+
+.note-button:hover,.note-button:active,.note-button:focus {
+    background-color: #FFD737 !important;
+}
+
+.add-btn {
+    background-color: #FFAA00;
+    border-color: #FFAA00;
+}
+
+.add-btn:hover, .add-btn:active, .add-btn:focus {
+    background-color: #BF8F30;
+    border-color: #FFAA00;
+}
+
+.fa-plus {
+    color: #FFFFFF;
+}
+
+.footer {
+    position: fixed;
+    background-color: #FFAA00;
+    bottom: 0px;
+    width: 100%;
+}
+
+/*
+* Styling for buttons in footer.
+*/
+.btn-group {
+    margin-left: 0px;
+    width: 100%;
+}
+
+.btn:focus,.btn:active {
+    outline: none !important;
+}
+
+.bottom-nav {
+    background-color: #FFAA00;
+    border-color: #FFAA00;
+    text-align: center;
+    width: calc(100% / 3);
+}
+
+.bottom-nav:hover, .bottom-nav:active, .bottom-nav:focus {
+    background-color: #BF8F30 !important;
+    border-color: #BF8F30;
+}
+
+.table-editable {
+    position: relative;
+}
+
+.glyphicon {
+    font-size: 20px;
+}
+
+.table-remove {
+    color: #A66F03;
+    cursor: pointer;
+
+&:hover {
+     color: #A66F03;
+ }
+}
