@@ -81,7 +81,7 @@ body {
     border-color: #FFFFFF;
 }
 
-.note-button:hover,.note-button:active {
+.note-button:hover {
     background-color: #FFD737 !important;
 }
 
