@@ -81,18 +81,8 @@ body {
     border-color: #FFFFFF;
 }
 
-.note-button:hover,.note-button:active,.note-button:focus {
+.note-button:hover,.note-button:active {
     background-color: #FFD737 !important;
-}
-
-.add-btn {
-    background-color: #FFAA00;
-    border-color: #FFAA00;
-}
-
-.add-btn:hover, .add-btn:active, .add-btn:focus {
-    background-color: #BF8F30;
-    border-color: #FFAA00;
 }
 
 .fa-plus {
